@@ -1,0 +1,156 @@
+@use '@/styles/layout.module' as *;
+@use '@/styles/palette.module' as *;
+
+.container {
+	padding: 24px 0px;
+	background:
+		linear-gradient(270deg, rgba(0, 0, 0, 0.2), rgba(0, 26, 255, 0.5)),
+		url(/images/Frame9886.webp);
+	background-size: 928px 618px;
+	background-position-x: 48%;
+	background-position-y: 4%;
+	background-repeat: no-repeat;
+	object-fit: cover;
+
+	&__info {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		gap: 82px;
+		color: $white;
+		background-color: rgba(255, 255, 255, 0.11);
+		border-radius: 16px;
+		padding: 16px;
+		&__text {
+			display: flex;
+			flex-direction: column;
+			gap: 24px;
+
+			&__one {
+				display: flex;
+				flex-direction: column;
+				h1 {
+					font-weight: 800;
+					font-size: 32px;
+
+					span {
+						color: #00aaff;
+					}
+				}
+
+				strong {
+					font-size: 26px;
+				}
+			}
+
+			p {
+				font-size: 16px;
+				font-weight: 500;
+			}
+		}
+
+		&__bottons {
+			display: flex;
+			flex-direction: column;
+			gap: 16px;
+		}
+	}
+}
+
+.typewriter {
+	display: inline-block;
+	white-space: nowrap;
+	overflow: hidden;
+	border-right: 2px solid #12adfa;
+	font-size: 32px;
+	width: 300px;
+	animation:
+		typing 3s steps(22) 1s 1 normal both,
+		blink 0.7s step-end infinite;
+}
+
+@keyframes typing {
+	from {
+		width: 0;
+	}
+	to {
+		width: 270px;
+	}
+}
+
+@keyframes blink {
+	50% {
+		border-color: transparent;
+	}
+}
+
+@media screen and (min-width: $breakpoint-tablet) {
+	.container {
+		&__info {
+			width: 100%;
+			padding: 24px;
+			&__text {
+				display: flex;
+				flex-direction: column;
+				gap: 24px;
+
+				&__one {
+					h1 {
+						font-size: 64px;
+						span {
+							font-size: 64px;
+						}
+					}
+
+					strong {
+						font-size: 32px;
+						width: 60%;
+					}
+				}
+
+				p {
+					font-size: 20px;
+					width: 70%;
+				}
+			}
+			&__bottons {
+				display: flex;
+				flex-direction: row;
+				gap: 16px;
+			}
+		}
+	}
+	@keyframes typing {
+		from {
+			width: 0;
+		}
+		to {
+			width: 82%;
+		}
+	}
+}
+
+@media screen and (min-width: $breakpoint-large-tablet) {
+	.container {
+		padding: 24px 0px;
+		background-size: cover;
+		background-position: center center;
+		background-repeat: no-repeat;
+	}
+}
+
+@media screen and (min-width: $breakpoint-desktop) {
+	.container {
+		&__info {
+			width: 60%;
+		}
+	}
+}
+
+@media screen and (min-width: $breakpoint-semilarge-desktop) {
+	.container {
+		&__info {
+			width: 50%;
+		}
+	}
+}

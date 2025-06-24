@@ -1,0 +1,23 @@
+@use '@/styles/layout.module' as *;
+@use '@/styles/spacing.module' as *;
+@use '@/styles/typography.module' as *;
+@use '@/styles/palette.module' as *;
+
+.link {
+	color: $white;
+	font-size: 18px;
+	font-weight: $font-weight-bold;
+	text-decoration: none;
+	line-height: 40px;
+
+	&:hover {
+		color: #12adfa;
+	}
+}
+
+@media screen and (min-width: $breakpoint-desktop) {
+	.link {
+		line-height: 60px;
+		text-transform: uppercase;
+	}
+}

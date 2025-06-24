@@ -1,0 +1,39 @@
+@use '@/styles/layout.module' as *;
+@use '@/styles/palette.module' as *;
+
+.container {
+	h2 {
+		display: inline-block;
+		color: $white;
+		font-weight: 700;
+		font-size: 32px;
+		padding-bottom: 16px;
+		text-align: left;
+	}
+
+	hr {
+		height: 4px;
+		background-color: #12adfa;
+		border: none;
+	}
+}
+
+@media screen and (min-width: $breakpoint-large-tablet) {
+	.container {
+		hr {
+			width: 70%;
+		}
+	}
+}
+
+@media screen and (min-width: $breakpoint-desktop) {
+	.container {
+		h2 {
+			font-size: 40px;
+		}
+
+		hr {
+			width: 52%;
+		}
+	}
+}

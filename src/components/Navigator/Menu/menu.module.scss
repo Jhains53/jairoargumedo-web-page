@@ -1,0 +1,33 @@
+@use '@/styles/layout.module' as *;
+@use '@/styles/spacing.module' as *;
+
+.container {
+	display: none;
+	align-items: center;
+
+	list-style: none;
+
+	.item {
+		margin-right: $spacing-32;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	@media screen and (min-width: $breakpoint-tablet) {
+		&__services {
+			display: none !important;
+		}
+	}
+	@media screen and (min-width: $breakpoint-desktop) {
+		&__services {
+			display: inline !important;
+		}
+	}
+}
+
+@media screen and (min-width: $breakpoint-desktop) {
+	.container {
+		display: flex !important;
+	}
+}

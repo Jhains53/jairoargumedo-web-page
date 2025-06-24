@@ -1,0 +1,36 @@
+.container {
+	color: #fff;
+	background: #000000;
+	padding-top: 40px;
+	padding-bottom: 32px;
+
+	&__content {
+		display: flex;
+		flex-direction: column;
+		gap: 40px;
+	}
+	&__copyright {
+		text-align: center;
+	}
+	.socialmedia {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		gap: 16px;
+
+		.button {
+			background-color: #12adfa99;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+
+			&:hover {
+				box-shadow: 0px 0px 8px 8px rgba(18, 173, 250, 0.75);
+			}
+		}
+	}
+}
