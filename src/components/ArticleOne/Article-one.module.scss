@@ -6,7 +6,7 @@
 	background:
 		linear-gradient(270deg, rgba(0, 0, 0, 0.2), rgba(0, 26, 255, 0.5)),
 		url(/images/Frame9886.webp);
-	background-size: 928px 618px;
+	background-size: 757px 504px;
 	background-position-x: 48%;
 	background-position-y: 4%;
 	background-repeat: no-repeat;
@@ -86,6 +86,10 @@
 
 @media screen and (min-width: $breakpoint-tablet) {
 	.container {
+		background-size: 928px 618px;
+		background-position-x: 48%;
+		background-position-y: 4%;
+
 		&__info {
 			width: 100%;
 			padding: 24px;
