@@ -1,7 +1,7 @@
 import { MarginContainer, SkillsContainer, Titles } from '@/components';
+import SkillCard from '@/components/SkillsContainer/SkillCard/SkillCard';
 
 import styles from './my-skills.module.scss';
-import SkillCard from '@/components/SkillsContainer/SkillCard/SkillCard';
 
 interface ISkillsContainer {
 	title: string;
