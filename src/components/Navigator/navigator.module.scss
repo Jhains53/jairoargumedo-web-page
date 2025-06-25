@@ -25,11 +25,15 @@
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		background-color: #000000;
+		background-color: #0A0A09;
 		border-radius: 16px;
 		box-shadow: 0px 1px 45.2px 8px #008cff73;
 
 		&__logo {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
 			padding-left: 4px;
 		}
 	}

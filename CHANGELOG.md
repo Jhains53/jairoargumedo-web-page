@@ -6,3 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 ## [unreleased]
 
+## Feat:
+
+- Se agrego configuracion de workflows para despliegues en demo y producción | [#1](https://github.com/Jhains53/jairoargumedo-web-page/pull/1) | [Jhains53](https://github.com/Jhains53)
+- Se agrego logo de la web | [#1](https://github.com/Jhains53/jairoargumedo-web-page/pull/1) | [Jhains53](https://github.com/Jhains53)
+- Se agrego funcionalidad descargar CV | [#1](https://github.com/Jhains53/jairoargumedo-web-page/pull/1) | [Jhains53](https://github.com/Jhains53)
+- Se agrego información metadata | [#1](https://github.com/Jhains53/jairoargumedo-web-page/pull/1) | [Jhains53](https://github.com/Jhains53)
+- Se realizo configuración para metadata | [#1](https://github.com/Jhains53/jairoargumedo-web-page/pull/1) | [Jhains53](https://github.com/Jhains53)

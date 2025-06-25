@@ -176,7 +176,7 @@ export default function MyProjects() {
 							<div className={styles.info__description}>
 								<p>
 									{
-										'Esta es una web para mostrar sus servicios de fitness, natación, salud para mamas y bebes, facilitando la reserva de estos y mejorando la experiencia del usuario en cada interacción, ademas brindando información en cuidados de salud a travez de su blog.'
+										'Esta es una página web diseñada para mostrar sus servicios de fitness, natación y salud para mamás y bebés, facilitando la reserva de estos y mejorando la experiencia del usuario en cada interacción. Además, brinda información sobre el cuidado de la salud a través de su blog.'
 									}
 								</p>
 								<Link
