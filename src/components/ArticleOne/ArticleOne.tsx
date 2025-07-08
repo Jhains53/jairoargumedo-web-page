@@ -17,7 +17,7 @@ export default function ArticleOne() {
 		},
 		{
 			title: 'Descargar CV',
-			url: 'https://umiqvfzaykwktvrpgvmt.supabase.co/storage/v1/object/public/images/Web-personal/documents/CV-Jairo-Argumedo.pdf',
+			url: 'https://umiqvfzaykwktvrpgvmt.supabase.co/storage/v1/object/public/images/Web-personal/documents/CV-Jairo-Argumedo%201.pdf',
 			icon: '/images/curriculum-vitae 1.png',
 			color: '#000000',
 			blank: true

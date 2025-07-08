@@ -2,7 +2,7 @@
 
 .container {
 	position: relative;
-	
+
 	&__title {
 		display: flex;
 		flex-direction: column;
@@ -45,15 +45,13 @@
 				object-position: left;
 				border-radius: 16px 16px 0 0;
 			}
-
-
 		}
 
 		.info {
 			h3 {
 				color: #fff;
 				margin-bottom: 16px;
-                font-size: 30px;
+				font-size: 30px;
 			}
 
 			.tecnologies {
@@ -70,7 +68,6 @@
 				background-color: #ffffff1c;
 				padding: 4px;
 				border-radius: 8px;
-
 			}
 
 			&__content {
@@ -201,9 +198,22 @@
 				height: 1400px;
 				left: 0;
 				display: block;
-				background: radial-gradient(circle at 23% 50%, rgba(222, 129, 160, 0.339),rgba(255,255,255, 0) 25%),
-				radial-gradient(circle at 72% 23%, rgba(250, 191, 120, 0.339),rgba(255,255,255,0) 25%),
-				radial-gradient(circle at 72% 80%,rgba(94, 86, 204, 0.364),rgba(255,255,255,0) 25%)
+				background:
+					radial-gradient(
+						circle at 23% 50%,
+						rgba(222, 129, 160, 0.339),
+						rgba(255, 255, 255, 0) 25%
+					),
+					radial-gradient(
+						circle at 72% 23%,
+						rgba(250, 191, 120, 0.339),
+						rgba(255, 255, 255, 0) 25%
+					),
+					radial-gradient(
+						circle at 72% 80%,
+						rgba(94, 86, 204, 0.364),
+						rgba(255, 255, 255, 0) 25%
+					);
 			}
 		}
 	}
