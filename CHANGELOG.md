@@ -6,6 +6,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 ## [unreleased]
 
+## [v1.0.2]
+
+## Fix
+
+- Se realizo actualizacion de dependencias | [#4](https://github.com/Jhains53/jairoargumedo-web-page/pull/4) | [Jhains53](https://github.com/Jhains53)
+
+## refactor
+
+- Se realizo corrección de correo electronico en documento CV | [#2](https://github.com/Jhains53/jairoargumedo-web-page/pull/2) | [Jhains53](https://github.com/Jhains53)
+
 ## [v1.0.1]
 
 ## Feat:
